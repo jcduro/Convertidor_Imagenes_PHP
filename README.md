@@ -26,13 +26,18 @@ Este proyecto es un script PHP para subir imágenes JPG, PNG o WebP y convertirl
 
 El proyecto usa funciones gráficas como `imagecreatefromjpeg()`, `imagepng()`, `imagewebp()`, etc., que provienen de GD, una extensión esencial en PHP para manejar imágenes. Para activarla:
 
-- Abre el archivo `php.ini` de tu instalación (en XAMPP suele estar en `C:\xampp\php\php.ini`).
-- Busca la línea con `extension=gd` o `;extension=gd`.
-- Quita el `;` al inicio para descomentarla y activarla así:
-
-extension=gd
-
-- Guarda el archivo y reinicia Apache.
+ **Activar extensión GD en PHP:**
+   - Abre tu archivo `php.ini` (`C:\xampp\php\php.ini` en XAMPP).
+   - Busca la línea:
+     ```
+     ;extension=gd
+     ```
+     y elimínale el punto y coma:
+     ```
+     extension=gd
+     ```
+   - Guarda y **reinicia Apache** para activar.
+     
 
 ---
 

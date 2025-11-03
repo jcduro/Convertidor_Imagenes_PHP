@@ -1,0 +1,133 @@
+   @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
+    body {
+        height: 100vh;
+        margin: 0;
+        background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+        color: #80fff8;
+        font-family: 'Orbitron', monospace;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container {
+        background-color: #0c243cdd;
+        border-radius: 12px;
+        padding: 25px 30px;
+        box-shadow:
+            0 0 10px #00ffe7,
+            0 0 20px #00bdae,
+            0 0 30px #00ffa1,
+            inset 0 0 10px #00bdae;
+        max-width: 460px;
+        width: 100%;
+        text-align: center;
+    }
+    h1 {
+        margin-bottom: 20px;
+        color: #00ffff;
+        text-shadow:
+            0 0 5px #00ffea,
+            0 0 10px #00fbd3,
+            0 0 15px #00ddb3;
+        font-size: 2.6rem;
+        letter-spacing: 2px;
+    }
+    input[type=file] {
+        display: block;
+        margin: 20px auto 10px auto;
+        padding: 6px;
+        background: #001020;
+        border: 2px solid #00fff3;
+        border-radius: 5px;
+        color: #00fff3;
+        font-family: monospace;
+    }
+    select {
+        font-size: 16px;
+        margin: 10px auto;
+        padding: 8px 15px;
+        border: 2px solid #00ffcc;
+        border-radius: 6px;
+        background: #002535;
+        color: #00ffd1;
+        font-family: 'Orbitron', monospace;
+        display: block;
+        cursor: pointer;
+    }
+    button {
+        margin: 20px auto 8px;
+        background: #0ff;
+        border: none;
+        color: #000;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+        padding: 10px 32px;
+        border-radius: 30px;
+        box-shadow:
+            0 0 6px #00f5db,
+            0 0 15px #00f8cd,
+            0 0 22px #00f5db,
+            0 0 35px #00f8cd;
+        font-family: 'Orbitron', monospace;
+        transition: all 0.3s ease-in-out;
+        cursor: pointer;
+        user-select: none;
+    }
+    button:hover {
+        box-shadow:
+            0 0 20px #00fff1,
+            0 0 40px #00ffee,
+            0 0 60px #00fff3,
+            0 0 80px #00fffe;
+        color: #000;
+    }
+    .info {
+        font-size: 16px;
+        min-height: 28px;
+        margin: 12px 0 8px 0;
+        user-select: none;
+    }
+    .error {
+        color: #f44242;
+        text-shadow: 0 0 7px #f44242bb;
+    }
+    .success {
+        color: #0fffcf;
+        text-shadow: 0 0 7px #0fffcfbb;
+    }
+    img {
+        margin: 14px auto;
+        max-width: 280px;
+        border-radius: 12px;
+        box-shadow:
+            0 0 13px #0ff,
+            0 0 30px #0ff,
+            0 0 50px #0ff;
+    }
+    a.download {
+        text-decoration: none;
+        color: #00ffdd;
+        font-weight: 700;
+        font-family: 'Orbitron', monospace;
+        font-size: 16px;
+        letter-spacing: 1.2px;
+        display: inline-block;
+        margin-top: 10px;
+        background: #004040cc;
+        padding: 7px 20px;
+        border-radius: 10px;
+        box-shadow:
+            0 0 10px #00ffdd,
+            0 0 20px #00ffee;
+        transition: all 0.25s ease-in-out;
+    }
+    a.download:hover {
+        background: #f0ffffcc;
+        color: #008080;
+        box-shadow:
+            0 0 15px #00ffaa,
+            0 0 30px #00ffaa,
+            0 0 45px #00ffaa;
+    }
+

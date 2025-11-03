@@ -14,7 +14,7 @@ Este proyecto es un script PHP para subir imágenes JPG, PNG o WebP y convertirl
 
 ## ✨ Pruevalo Online
 
-[Convertidor_Imagenes](https://jcduro.bexartideas.com/proyectos/convertidor_Imagenes/)
+[Convertidor_Imagenes](https://jcduro.bexartideas.com/proyectos/convertidor_imagenes/index.php)
 
 --- 
 

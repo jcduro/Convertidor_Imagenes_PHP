@@ -1,4 +1,19 @@
-   @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
+/*
+     |  ___|  __ \  |   |  _ \   _ \   
+     | |      |   | |   | |   | |   |  
+ \   | |      |   | |   | __ <  |   |  
+\___/ \____| ____/ \___/ _| \_\\___/   
+                                       
+  ___|  _ \  __ \  ____|    _ )   _ _| __ \  ____|    \     ___|  
+ |     |   | |   | __|     _ \ \   |  |   | __|     _ \  \___ \  
+ |     |   | |   | |      ( `  <   |  |   | |      ___ \       | 
+\____|\___/ ____/ _____| \___/\/ ___|____/ _____|_/    _\_____/  
+
+  https://jcduro.bexartideas.com/index.php | 2025 | JC Duro Code & Ideas
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
     body {
         height: 100vh;
         margin: 0;
@@ -130,4 +145,5 @@
             0 0 30px #00ffaa,
             0 0 45px #00ffaa;
     }
+
 

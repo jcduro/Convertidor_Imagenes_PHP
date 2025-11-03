@@ -1,3 +1,18 @@
+<!--  
+     |  ___|  __ \  |   |  _ \   _ \   
+     | |      |   | |   | |   | |   |  
+ \   | |      |   | |   | __ <  |   |  
+\___/ \____| ____/ \___/ _| \_\\___/   
+                                       
+  ___|  _ \  __ \  ____|    _ )   _ _| __ \  ____|    \     ___|  
+ |     |   | |   | __|     _ \ \   |  |   | __|     _ \  \___ \  
+ |     |   | |   | |      ( `  <   |  |   | |      ___ \       | 
+\____|\___/ ____/ _____| \___/\/ ___|____/ _____|_/    _\_____/  
+
+  https://jcduro.bexartideas.com/index.php | 2025 | JC Duro Code & Ideas
+
+-->
+
 <?php
 $img_convertida = '';
 $info = '';
@@ -57,6 +72,7 @@ if (isset($_POST['convertir']) && isset($_FILES['img']) && $_FILES['img']['error
 <head>
 <meta charset="UTF-8" />
 <title>Convertidor de Imágenes PHP</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 <div class="box">
@@ -82,3 +98,4 @@ if (isset($_POST['convertir']) && isset($_FILES['img']) && $_FILES['img']['error
 </div>
 </body>
 </html>
+

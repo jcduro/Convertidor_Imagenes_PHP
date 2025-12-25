@@ -8,7 +8,7 @@ Este proyecto es un script PHP para subir imágenes JPG, PNG o WebP y convertirl
 
 ## ✨ Vista previa
 
-![Convertidor_Preview](preview.gif)
+![Convertidor_Preview](previewconvert.gif)
 
 --- 
 

@@ -91,11 +91,18 @@ WebP Support enabled
 
 ---
 
-## 🧩 Licencia
+--- 
 
-Proyecto abierto para aprendizaje, uso y modificación libre.
+## 📄 Licencia
+Libre, usalo como quieras
+<div align="center">
+  Hecho con 💙 y neones
+</div>
 
 ---
+
+## ⭐ Si te gustó este proyecto, no olvides dejar una estrella en GitHub!
+
 
 
 
